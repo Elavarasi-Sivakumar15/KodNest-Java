@@ -10,11 +10,13 @@ public class Main {
         int m3=69;
         int m4=91;
         int m5=88;
+
         double simpleInterest=principal*rate*time/100;
         double totalAmount=principal+simpleInterest;
         double bmi=weight/(height*height);
         int totalMarks=m1+m2+m3+m4+m5;
         double percentage=totalMarks*100.0/500;
+        
         System.out.println("Simple Interest: "+simpleInterest);
         System.out.println("Total Amount: "+totalAmount);
         System.out.println("BMI: "+bmi);
